@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+   <div class="maincontainer">
+
+     <!--for login-->
+     <div class="form-box active" id="loginForm">
+        <h3 style="color: darkolivegreen; margin-bottom: 40px; margin-top: 0px;">Login</h3>
+     <form action="#">
+        <div class="input-group">
+            <div class="input-field">
+                <input type="text" id="loginUsername" placeholder="Full Name" required>
+            </div>
+            <div class="input-field">
+                <input type="password" id="loginPassword" placeholder="Password" required>
+            </div>
+              <button type="submit">Login</button>   
+        </div>      
+     </form>
+       <p style="margin-top: 10px;">Dont have an account? <a href="#" id="showSignUp">Register</a></p>
+    </div> 
+        
+      <!--for signup-->
+    <div class="form-box" id="signUpForm" >
+            <h3 style="color: darkolivegreen; margin-bottom: 40px; margin-top: 0px;">Register as an Intern</h3>
+        <form action="#" id="signupform">
+            <div class="input-group">
+                <div class="input-field">
+                    <input type="text" id="signUpUsername" placeholder="Full Name" required>
+                </div>
+                <div class="input-field">
+                    <input type="email" id="email" placeholder="Email" required>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="Password" placeholder="Password" required>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="RePassword" placeholder="Re-enter Password" required>
+                </div>
+               
+                
+                    <button type="submit">Register</button>
+               
+            </div>
+        </form>
+        <p style="margin-top: 15px;">Already have an account? <a href="#" id="showLogin">Login</a></p>
+    </div> 
+
+
+   
+    
+
+    </div> <!--container ends--> 
+
+<script src="script.js"></script>
+</body>
+</html>
